@@ -18,7 +18,8 @@ import sys, os, json, time, argparse
 import numpy as np
 from scipy import stats as sp_stats  # for Clopper-Pearson CI
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import (
     ExponentialHawkesKernel,
@@ -29,7 +30,7 @@ from tiimm import (
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
-OUT = os.path.join(ROOT, "esr_extended.json")
+OUT = os.path.join(ROOT, "results", "esr_extended.json")
 
 DATASET_CONFIGS = {
     "higgs": {
@@ -313,3 +314,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

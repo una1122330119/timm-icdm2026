@@ -5,10 +5,15 @@ __pycache__/
 .venv/
 venv/
 env/
+.pytest_cache/
 
 data/
 logs/
 *.log
+
+build/
+dist/
+*.egg-info/
 
 *.aux
 *.bbl

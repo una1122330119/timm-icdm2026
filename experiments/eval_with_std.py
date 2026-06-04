@@ -2,7 +2,8 @@
 """Re-evaluate existing seed sets with N_RUNS=5 to get mean ± std."""
 import sys, os, json, time
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import *
 
@@ -116,7 +117,9 @@ for ds_name in ['higgs', 'dblp', 'reddit']:
         print(f'Rand={np.mean(spreads):.0f}±{np.std(spreads):.0f}', flush=True)
 
     # Save incrementally
-    out_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'results_with_std.json')
+    out_path = os.path.join(REPO_ROOT, 'results', 'results_with_std.json')
     json.dump(results, open(out_path, 'w'), indent=2)
 
 print(f'\nDone. {len(results)} records -> results_with_std.json')
+
+

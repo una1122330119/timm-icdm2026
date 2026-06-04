@@ -17,7 +17,8 @@ Usage:
 import sys, os, json, time, argparse
 import numpy as np
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import (
     ExponentialHawkesKernel,
@@ -30,7 +31,7 @@ from tiimm.hawkes_model import HawkesDiffusion
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
-OUT = os.path.join(ROOT, "snapshot_window_results.json")
+OUT = os.path.join(ROOT, "results", "snapshot_window_results.json")
 
 SEED = 42
 MC_EVAL = 200
@@ -203,3 +204,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

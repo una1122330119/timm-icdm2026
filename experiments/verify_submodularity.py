@@ -10,7 +10,8 @@ Usage:
 """
 
 import sys, os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 import numpy as np
 import matplotlib
@@ -238,3 +239,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

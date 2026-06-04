@@ -10,14 +10,15 @@ has been excluded from the package.
 
 ## Contents
 
-- `tiimm/`: TIMM implementation, Hawkes diffusion model, TRR-set generation,
+- `src/tiimm/`: TIMM implementation, Hawkes diffusion model, TRR-set generation,
   martingale sample bounds, and baseline algorithms.
 - `experiments/`: scripts for smoke tests, main comparisons, sensitivity
   studies, calibration, and figure generation.
 - `figures/`: generated figures used in the manuscript.
 - `results/`: saved JSON summaries used to produce tables and figures.
-- `TIMM_paper_ICDM2026.tex`, `TIMM_paper_ICDM2026.pdf`: anonymous manuscript
-  files included for convenience.
+- `paper/`: optional anonymous manuscript files included for convenience. A
+  code-only repository is also acceptable; these files can be omitted if the
+  submission system already provides the paper.
 
 ## Installation
 
@@ -25,6 +26,7 @@ has been excluded from the package.
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+pip install -e .
 ```
 
 On Windows PowerShell, activate the environment with:
@@ -32,6 +34,7 @@ On Windows PowerShell, activate the environment with:
 ```powershell
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ## Quick Check

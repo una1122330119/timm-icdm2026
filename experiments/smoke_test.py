@@ -1,7 +1,8 @@
 ﻿#!/usr/bin/env python3
 """Quick smoke test — verify all algorithms produce different, reasonable results."""
 import sys, os, numpy as np, time
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import (
     generate_synthetic_graph, ExponentialHawkesKernel,
@@ -81,3 +82,5 @@ for name, sp, t, theta in results:
 timm_sp = results[0][1]
 print(f"\nTIMM is {'BEST' if timm_sp >= best - 0.5 else f'within {best - timm_sp:.1f} of best'}")
 print("SMOKE TEST PASSED")
+
+

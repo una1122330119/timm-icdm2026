@@ -8,8 +8,10 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 import matplotlib.ticker as ticker
 
-DATA = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'figure_data.json')))
-OUT = os.path.join(os.path.dirname(__file__), '..', 'figures')
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+with open(os.path.join(REPO_ROOT, 'results', 'figure_data.json'), encoding='utf-8-sig') as f:
+    DATA = json.load(f)
+OUT = os.path.join(REPO_ROOT, 'figures')
 os.makedirs(OUT, exist_ok=True)
 
 # Style
@@ -255,7 +257,7 @@ def fig_mc_hawkes_speedup():
     ax2.set_title('Computational Cost (Synth-S, k=10)', fontweight='bold')
     ax2.grid(axis='y', alpha=0.3)
     ax2.annotate(f'263× faster', xy=(1, 0.27), fontsize=10, fontweight='bold',
-                color='#1f77b4', ha='center', xytext=(0, -20), textcoords='offset points')
+                color='#1f77b4', ha='center', xytext=(1, 7), textcoords='data')
     for bar, v in zip(bars_t, times):
         ax2.text(bar.get_x() + bar.get_width()/2., bar.get_height() + 1,
                 f'{v:.1f}s', ha='center', fontsize=9, fontweight='bold')
@@ -276,3 +278,5 @@ if __name__ == '__main__':
     fig5_ablation()
     fig_mc_hawkes_speedup()
     print(f'All figures saved to: {OUT}')
+
+

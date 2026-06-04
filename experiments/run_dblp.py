@@ -2,7 +2,8 @@
 """DBLP only — large citation network (n≈317K)."""
 import sys, os, json, time
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import (
     ExponentialHawkesKernel, TIMM, StaticIMM, SnapshotIMM,
@@ -11,7 +12,7 @@ from tiimm import (
 )
 
 SEED, MC, EPS, K, H = 42, 1000, 0.3, [10, 20, 50], 100.0  # H=t_max since edges normalized to [0,100]
-OUT = os.path.join(os.path.dirname(__file__), "..", "real_dblp.json")
+OUT = os.path.join(REPO_ROOT, "results", "real_dblp.json")
 data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
 
 print("Loading DBLP...")
@@ -59,3 +60,5 @@ for k in K:
     json.dump(results, open(OUT,"w"), indent=2)
 
 print(f"\nSaved to {OUT} ({len(results)} records)")
+
+

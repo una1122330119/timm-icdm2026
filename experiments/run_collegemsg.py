@@ -2,7 +2,8 @@
 """CollegeMsg only — small graph, can run MC-Hawkes-Greedy + CELF."""
 import sys, os, json, time
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import (
     ExponentialHawkesKernel, TIMM, StaticIMM, SnapshotIMM,
@@ -15,7 +16,7 @@ SEED, MC, EPS, K, H = 42, 1000, 0.3, [10, 20, 50], 100.0
 #   b = avg_deg · (1 − exp(−α/β))  →  α = −β · ln(1 − 0.7/avg_deg)
 # Subcritical cascades ensure seed selection matters (avoid saturation).
 # (alpha, beta) set below after loading the graph.
-OUT = os.path.join(os.path.dirname(__file__), "..", "real_collegemsg.json")
+OUT = os.path.join(REPO_ROOT, "results", "real_collegemsg.json")
 data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
 
 print("Loading CollegeMsg...")
@@ -92,3 +93,5 @@ for k in K:
     json.dump(results, open(OUT,"w"), indent=2)
 
 print(f"\nSaved to {OUT} ({len(results)} records)")
+
+

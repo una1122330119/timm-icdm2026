@@ -19,7 +19,8 @@ Changes from original:
 
 import sys, os, json, time, argparse
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import (
     ExponentialHawkesKernel, TIMM, StaticIMM, SnapshotIMM,
@@ -75,8 +76,7 @@ def main():
     mc_eval = 200 if args.quick else MC_EVAL
 
     data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-    out_path = os.path.join(os.path.dirname(os.path.dirname(__file__)),
-                            "real_results.json")
+    out_path = os.path.join(REPO_ROOT, "results", "real_results.json")
     results = []
 
     def record(ds, algo, k, spread, std_spread, elapsed, **extra):
@@ -222,3 +222,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

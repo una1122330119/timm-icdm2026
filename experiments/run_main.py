@@ -13,7 +13,8 @@ Changes from original:
 
 import sys, os, json, time, argparse
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import (
     generate_synthetic_graph,
@@ -192,8 +193,7 @@ def main():
     MC_EVAL = mc_eval
 
     results = []
-    out_path = os.path.join(os.path.dirname(os.path.dirname(__file__)),
-                            "experiment_results.json")
+    out_path = os.path.join(REPO_ROOT, "results", "experiment_results.json")
 
     def record(dataset, algo, k, spread, std_spread, elapsed, **extra):
         r = {"dataset": dataset, "algo": algo, "k": k,
@@ -462,3 +462,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

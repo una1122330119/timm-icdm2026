@@ -2,7 +2,8 @@
 """MC-Hawkes-Greedy on Higgs-500 induced subgraph — fills real-subgraph gap."""
 import sys, os, json, time
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import (
     ExponentialHawkesKernel, TIMM, MCHawkesGreedy, load_dataset,
@@ -133,3 +134,5 @@ result = {
 json.dump(result, open(OUT, "w"), indent=2)
 print(f"\nSaved: {OUT}")
 print("DONE")
+
+

@@ -2,7 +2,8 @@
 """Branching factor sensitivity: vary b ∈ {0.3, 0.5, 0.7, 0.9} on DBLP."""
 import sys, os, time
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import *
 
@@ -48,3 +49,5 @@ for target_b in [0.3, 0.5, 0.7, 0.9]:
           f'({ti_time:.1f}s)', flush=True)
 
 print('\nDone.')
+
+

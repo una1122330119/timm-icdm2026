@@ -2,7 +2,8 @@
 """MC-Hawkes-Greedy comparison on Synth-S (n=500) — fast enough to complete."""
 import sys, os, time
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 from tiimm import *
 from tiimm.hawkes_model import HawkesDiffusion
@@ -69,3 +70,5 @@ for k in [10, 20]:
     print(f'    TIMM gap vs MC-Hawkes-Greedy: {(ti_sp-mc_hawkes_sp)/max(mc_hawkes_sp,1)*100:+.1f}%')
 
 print('\nDone.')
+
+

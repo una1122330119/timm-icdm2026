@@ -23,7 +23,8 @@ Usage:
 import sys, os, json, time, argparse
 import numpy as np
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(REPO_ROOT, "src"))
 
 import matplotlib
 matplotlib.use("Agg")
@@ -41,7 +42,7 @@ from tiimm import (
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
 FIG_DIR = os.path.join(ROOT, "figures")
-OUT = os.path.join(ROOT, "calibration_results.json")
+OUT = os.path.join(ROOT, "results", "calibration_results.json")
 os.makedirs(FIG_DIR, exist_ok=True)
 
 SEED = 42
@@ -363,3 +364,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

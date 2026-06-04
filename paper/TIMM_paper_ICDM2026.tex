@@ -300,7 +300,7 @@ $p = 1 - \exp\!\big(-\frac{\alpha}{\beta}(1 - e^{-\beta(\tau - t)})\big)$
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{figures/fig1_trr_schematic.png}
+\includegraphics[width=\columnwidth]{../figures/fig1_trr_schematic.png}
 \caption{Left: Forward Hawkes cascade --- a seed activates downstream neighbors with intensity $\varphi(\Delta t) = \alpha e^{-\beta \Delta t}$. Right: TRR-set backward walk --- starting from target $v$ at horizon $T$, the walk traces incoming edges backward with activation probability $p = 1 - \exp(-\frac{\alpha}{\beta}(1 - e^{-\beta(\tau - t)}))$, which exactly matches the forward Hawkes conditional intensity integral. This identity (Lemma~\ref{lem:unbiasedness}) gives singleton unbiasedness under $\mu{=}0$; multi-seed coverage is used as an empirically calibrated proxy (\S6.5).}
 \label{fig:trr_schematic}
 \end{figure}
@@ -573,7 +573,7 @@ On full-scale real datasets ($n \ge 2000$), MC-Hawkes-Greedy would require an es
 
 \begin{figure}[tb]
 \centering
-\includegraphics[width=0.9\columnwidth]{figures/fig_mc_hawkes_speedup.png}
+\includegraphics[width=0.9\columnwidth]{../figures/fig_mc_hawkes_speedup.png}
 \caption{Runtime comparison: TIMM vs.\ MC-Hawkes-Greedy on Synth-S ($n{=}500$). TIMM achieves 263$\times$ speedup while producing higher-quality seed sets.}
 \label{fig:mc_hawkes}
 \end{figure}
@@ -582,7 +582,7 @@ On full-scale real datasets ($n \ge 2000$), MC-Hawkes-Greedy would require an es
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{figures/fig3_scalability.png}
+\includegraphics[width=\columnwidth]{../figures/fig3_scalability.png}
 \caption{TIMM runtime scalability across datasets from 500 to 256K nodes. The near-linear trend confirms the $O(\theta \cdot L)$ complexity analysis.}
 \label{fig:scalability}
 \end{figure}
@@ -622,7 +622,7 @@ This confirms that the performance gap is driven by temporal modeling, not by pa
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{figures/fig_branching_sensitivity.png}
+\includegraphics[width=\columnwidth]{../figures/fig_branching_sensitivity.png}
 \caption{Left: Influence spread of TIMM vs.\ StaticIMM vs.\ Random across effective branching factors $b \in \{0.30, 0.50, 0.70, 0.90\}$ on DBLP ($k=20$). Right: TIMM's relative gain over StaticIMM. The temporal advantage is largest in sparse cascade regimes and decreases monotonically as cascades grow denser. TIMM retains a measurable edge even near the critical threshold ($b=0.90$).}
 \label{fig:branching}
 \end{figure}

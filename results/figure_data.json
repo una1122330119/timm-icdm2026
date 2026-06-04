@@ -1,0 +1,50 @@
+﻿{
+  "main_comparison": {
+    "Higgs": {"n": 256491, "m": 354930, "deg": 1.38, "alpha": 0.50, "beta": 1.0, "b": 0.54},
+    "DBLP": {"n": 27770, "m": 352807, "deg": 12.7, "alpha": 0.0567, "beta": 1.0, "b": 0.70},
+    "Reddit": {"n": 35776, "m": 286561, "deg": 8.0, "alpha": 0.0914, "beta": 1.0, "b": 0.70},
+    "CollegeMsg": {"n": 1899, "m": 59835, "deg": 31.5, "alpha": 0.0225, "beta": 1.0, "b": 0.70}
+  },
+  "results": {
+    "Higgs": {
+      "k10": {"TIMM": 20738, "StaticIMM": 17623, "SnapshotIMM": 10, "DegDiscount": 20143, "TempDegree": 20602, "Random": 13},
+      "k20": {"TIMM": 23584, "StaticIMM": 17841, "SnapshotIMM": 95, "DegDiscount": 22941, "TempDegree": 22813, "Random": 21},
+      "k50": {"TIMM": 28851, "StaticIMM": 19276, "SnapshotIMM": 127, "DegDiscount": 26307, "TempDegree": 26904, "Random": 55}
+    },
+    "DBLP": {
+      "k10": {"TIMM": 1702, "StaticIMM": 1557, "SnapshotIMM": 15, "DegDiscount": 1546, "TempDegree": 1412, "Random": 21},
+      "k20": {"TIMM": 1996, "StaticIMM": 1856, "SnapshotIMM": 28, "DegDiscount": 1898, "TempDegree": 1725, "Random": 46},
+      "k50": {"TIMM": 2398, "StaticIMM": 2113, "SnapshotIMM": 84, "DegDiscount": 2346, "TempDegree": 2023, "Random": 97}
+    },
+    "Reddit": {
+      "k10": {"TIMM": 1893, "StaticIMM": 1890, "SnapshotIMM": 1864, "DegDiscount": 1867, "TempDegree": 1871, "Random": 885},
+      "k20": {"TIMM": 1969, "StaticIMM": 1902, "SnapshotIMM": 1878, "DegDiscount": 1907, "TempDegree": 1868, "Random": 1631},
+      "k50": {"TIMM": 2046, "StaticIMM": 1948, "SnapshotIMM": 1911, "DegDiscount": 1984, "TempDegree": 1953, "Random": 1840}
+    },
+    "CollegeMsg": {
+      "k10": {"TIMM": 413, "StaticIMM": 339, "SnapshotIMM": 414, "DegDiscount": 411, "TempDegree": 422, "Random": 378},
+      "k20": {"TIMM": 426, "StaticIMM": 401, "SnapshotIMM": 427, "DegDiscount": 425, "TempDegree": 427, "Random": 417},
+      "k50": {"TIMM": 459, "StaticIMM": 436, "SnapshotIMM": 446, "DegDiscount": 449, "TempDegree": 445, "Random": 450}
+    }
+  },
+  "mc_hawkes_comparison": {
+    "dataset": "Synth-S",
+    "n": 500, "m": 1984,
+    "k": 10,
+    "MCHawkesGreedy": {"spread": 28.1, "time_s": 70.6},
+    "TIMM": {"spread": 29.9, "time_s": 0.3, "theta": 25687},
+    "StaticIMM": {"spread": 20.1},
+    "Random": {"spread": 19.5},
+    "jaccard_wc_timm": 0.25,
+    "speedup": 263
+  },
+  "scalability": {
+    "Synth-S": {"n": 500, "time_s": 0.3, "algo": "TIMM"},
+    "CollegeMsg": {"n": 1899, "time_s": 6.0, "algo": "TIMM"},
+    "Synth-M": {"n": 2000, "time_s": 1.3, "algo": "TIMM"},
+    "Synth-L": {"n": 5000, "time_s": 3.5, "algo": "TIMM"},
+    "DBLP": {"n": 27770, "time_s": 45.0, "algo": "TIMM"},
+    "Reddit": {"n": 35776, "time_s": 51.0, "algo": "TIMM"},
+    "Higgs": {"n": 256491, "time_s": 72.0, "algo": "TIMM"}
+  }
+}

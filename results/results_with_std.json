@@ -1,0 +1,578 @@
+﻿[
+  {
+    "dataset": "higgs",
+    "algo": "TIMM",
+    "k": 10,
+    "spread": 20734.2,
+    "std": 7.8,
+    "time_s": 640.9
+  },
+  {
+    "dataset": "higgs",
+    "algo": "StaticIMM",
+    "k": 10,
+    "spread": 17665.7,
+    "std": 80.8,
+    "time_s": 195.7
+  },
+  {
+    "dataset": "higgs",
+    "algo": "SnapshotIMM",
+    "k": 10,
+    "spread": 10.5,
+    "std": 0.0,
+    "time_s": 0.3
+  },
+  {
+    "dataset": "higgs",
+    "algo": "DegDiscount",
+    "k": 10,
+    "spread": 20175.4,
+    "std": 14.4,
+    "time_s": 225.6
+  },
+  {
+    "dataset": "higgs",
+    "algo": "TempDegree",
+    "k": 10,
+    "spread": 20589.0,
+    "std": 10.8,
+    "time_s": 228.9
+  },
+  {
+    "dataset": "higgs",
+    "algo": "Random",
+    "k": 10,
+    "spread": 12.8,
+    "std": 0.1,
+    "time_s": 0.0
+  },
+  {
+    "dataset": "higgs",
+    "algo": "TIMM",
+    "k": 20,
+    "spread": 23565.4,
+    "std": 19.3,
+    "time_s": 272.2
+  },
+  {
+    "dataset": "higgs",
+    "algo": "StaticIMM",
+    "k": 20,
+    "spread": 17871.6,
+    "std": 55.8,
+    "time_s": 214.4
+  },
+  {
+    "dataset": "higgs",
+    "algo": "SnapshotIMM",
+    "k": 20,
+    "spread": 95.3,
+    "std": 0.7,
+    "time_s": 0.9
+  },
+  {
+    "dataset": "higgs",
+    "algo": "DegDiscount",
+    "k": 20,
+    "spread": 22921.5,
+    "std": 31.0,
+    "time_s": 273.0
+  },
+  {
+    "dataset": "higgs",
+    "algo": "TempDegree",
+    "k": 20,
+    "spread": 22824.7,
+    "std": 21.6,
+    "time_s": 1017.7
+  },
+  {
+    "dataset": "higgs",
+    "algo": "Random",
+    "k": 20,
+    "spread": 20.7,
+    "std": 0.0,
+    "time_s": 0.1
+  },
+  {
+    "dataset": "higgs",
+    "algo": "TIMM",
+    "k": 50,
+    "spread": 28837.9,
+    "std": 7.7,
+    "time_s": 439.9
+  },
+  {
+    "dataset": "higgs",
+    "algo": "StaticIMM",
+    "k": 50,
+    "spread": 19195.1,
+    "std": 42.2,
+    "time_s": 222.3
+  },
+  {
+    "dataset": "higgs",
+    "algo": "SnapshotIMM",
+    "k": 50,
+    "spread": 129.0,
+    "std": 0.7,
+    "time_s": 1.1
+  },
+  {
+    "dataset": "higgs",
+    "algo": "DegDiscount",
+    "k": 50,
+    "spread": 26286.2,
+    "std": 21.9,
+    "time_s": 1105.9
+  },
+  {
+    "dataset": "higgs",
+    "algo": "TempDegree",
+    "k": 50,
+    "spread": 26879.9,
+    "std": 12.2,
+    "time_s": 279.8
+  },
+  {
+    "dataset": "higgs",
+    "algo": "Random",
+    "k": 50,
+    "spread": 55.2,
+    "std": 0.1,
+    "time_s": 0.1
+  },
+  {
+    "dataset": "dblp",
+    "algo": "TIMM",
+    "k": 10,
+    "spread": 1700.6,
+    "std": 9.3,
+    "time_s": 121.2
+  },
+  {
+    "dataset": "dblp",
+    "algo": "StaticIMM",
+    "k": 10,
+    "spread": 1579.0,
+    "std": 7.3,
+    "time_s": 111.2
+  },
+  {
+    "dataset": "dblp",
+    "algo": "SnapshotIMM",
+    "k": 10,
+    "spread": 14.4,
+    "std": 0.2,
+    "time_s": 0.7
+  },
+  {
+    "dataset": "dblp",
+    "algo": "DegDiscount",
+    "k": 10,
+    "spread": 1548.9,
+    "std": 3.4,
+    "time_s": 103.2
+  },
+  {
+    "dataset": "dblp",
+    "algo": "TempDegree",
+    "k": 10,
+    "spread": 1417.6,
+    "std": 13.0,
+    "time_s": 94.8
+  },
+  {
+    "dataset": "dblp",
+    "algo": "Random",
+    "k": 10,
+    "spread": 19.4,
+    "std": 0.5,
+    "time_s": 0.6
+  },
+  {
+    "dataset": "dblp",
+    "algo": "TIMM",
+    "k": 20,
+    "spread": 1999.6,
+    "std": 4.1,
+    "time_s": 156.7
+  },
+  {
+    "dataset": "dblp",
+    "algo": "StaticIMM",
+    "k": 20,
+    "spread": 1864.6,
+    "std": 4.9,
+    "time_s": 127.1
+  },
+  {
+    "dataset": "dblp",
+    "algo": "SnapshotIMM",
+    "k": 20,
+    "spread": 27.5,
+    "std": 0.9,
+    "time_s": 0.7
+  },
+  {
+    "dataset": "dblp",
+    "algo": "DegDiscount",
+    "k": 20,
+    "spread": 1912.4,
+    "std": 7.4,
+    "time_s": 138.8
+  },
+  {
+    "dataset": "dblp",
+    "algo": "TempDegree",
+    "k": 20,
+    "spread": 1720.4,
+    "std": 6.4,
+    "time_s": 121.3
+  },
+  {
+    "dataset": "dblp",
+    "algo": "Random",
+    "k": 20,
+    "spread": 47.0,
+    "std": 1.8,
+    "time_s": 1.3
+  },
+  {
+    "dataset": "dblp",
+    "algo": "TIMM",
+    "k": 50,
+    "spread": 2393.7,
+    "std": 3.0,
+    "time_s": 179.9
+  },
+  {
+    "dataset": "dblp",
+    "algo": "StaticIMM",
+    "k": 50,
+    "spread": 2115.9,
+    "std": 5.9,
+    "time_s": 150.2
+  },
+  {
+    "dataset": "dblp",
+    "algo": "SnapshotIMM",
+    "k": 50,
+    "spread": 84.5,
+    "std": 2.1,
+    "time_s": 1.9
+  },
+  {
+    "dataset": "dblp",
+    "algo": "DegDiscount",
+    "k": 50,
+    "spread": 2349.1,
+    "std": 3.4,
+    "time_s": 174.0
+  },
+  {
+    "dataset": "dblp",
+    "algo": "TempDegree",
+    "k": 50,
+    "spread": 2035.6,
+    "std": 6.7,
+    "time_s": 143.9
+  },
+  {
+    "dataset": "dblp",
+    "algo": "Random",
+    "k": 50,
+    "spread": 97.2,
+    "std": 3.8,
+    "time_s": 2.8
+  },
+  {
+    "dataset": "reddit",
+    "algo": "TIMM",
+    "k": 10,
+    "spread": 1893.0,
+    "std": 1.9,
+    "time_s": 208.6
+  },
+  {
+    "dataset": "reddit",
+    "algo": "StaticIMM",
+    "k": 10,
+    "spread": 1887.0,
+    "std": 4.0,
+    "time_s": 232.0
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 10,
+    "spread": 1862.8,
+    "std": 4.0,
+    "time_s": 197.4
+  },
+  {
+    "dataset": "reddit",
+    "algo": "DegDiscount",
+    "k": 10,
+    "spread": 1863.6,
+    "std": 3.5,
+    "time_s": 195.9
+  },
+  {
+    "dataset": "reddit",
+    "algo": "TempDegree",
+    "k": 10,
+    "spread": 1868.3,
+    "std": 3.3,
+    "time_s": 183.8
+  },
+  {
+    "dataset": "reddit",
+    "algo": "Random",
+    "k": 10,
+    "spread": 752.4,
+    "std": 23.6,
+    "time_s": 77.8
+  },
+  {
+    "dataset": "reddit",
+    "algo": "TIMM",
+    "k": 20,
+    "spread": 1965.2,
+    "std": 4.5,
+    "time_s": 220.5
+  },
+  {
+    "dataset": "reddit",
+    "algo": "StaticIMM",
+    "k": 20,
+    "spread": 1903.6,
+    "std": 3.5,
+    "time_s": 240.4
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 20,
+    "spread": 1874.8,
+    "std": 2.2,
+    "time_s": 205.6
+  },
+  {
+    "dataset": "reddit",
+    "algo": "DegDiscount",
+    "k": 20,
+    "spread": 1903.7,
+    "std": 3.9,
+    "time_s": 204.4
+  },
+  {
+    "dataset": "reddit",
+    "algo": "TempDegree",
+    "k": 20,
+    "spread": 1868.8,
+    "std": 4.3,
+    "time_s": 208.9
+  },
+  {
+    "dataset": "reddit",
+    "algo": "Random",
+    "k": 20,
+    "spread": 1685.4,
+    "std": 24.4,
+    "time_s": 169.1
+  },
+  {
+    "dataset": "reddit",
+    "algo": "TIMM",
+    "k": 50,
+    "spread": 2049.6,
+    "std": 3.2,
+    "time_s": 220.7
+  },
+  {
+    "dataset": "reddit",
+    "algo": "StaticIMM",
+    "k": 50,
+    "spread": 1947.4,
+    "std": 2.6,
+    "time_s": 229.4
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 50,
+    "spread": 1904.0,
+    "std": 3.8,
+    "time_s": 195.8
+  },
+  {
+    "dataset": "reddit",
+    "algo": "DegDiscount",
+    "k": 50,
+    "spread": 1988.5,
+    "std": 2.5,
+    "time_s": 221.5
+  },
+  {
+    "dataset": "reddit",
+    "algo": "TempDegree",
+    "k": 50,
+    "spread": 1946.2,
+    "std": 3.3,
+    "time_s": 214.9
+  },
+  {
+    "dataset": "reddit",
+    "algo": "Random",
+    "k": 50,
+    "spread": 1868.1,
+    "std": 19.2,
+    "time_s": 191.6
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "TIMM",
+    "k": 10,
+    "spread": 468.7,
+    "std": 0.9,
+    "time_s": 91.3
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "StaticIMM",
+    "k": 10,
+    "spread": 400.0,
+    "std": 6.6,
+    "time_s": 106.9
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "SnapshotIMM",
+    "k": 10,
+    "spread": 465.0,
+    "std": 0.6,
+    "time_s": 96.9
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "DegDiscount",
+    "k": 10,
+    "spread": 466.7,
+    "std": 0.9,
+    "time_s": 95.1
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "TempDegree",
+    "k": 10,
+    "spread": 470.5,
+    "std": 1.5,
+    "time_s": 99.3
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "Random",
+    "k": 10,
+    "spread": 442.6,
+    "std": 6.8,
+    "time_s": 90.0
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "TIMM",
+    "k": 20,
+    "spread": 476.4,
+    "std": 0.9,
+    "time_s": 103.7
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "StaticIMM",
+    "k": 20,
+    "spread": 470.3,
+    "std": 4.9,
+    "time_s": 131.6
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "SnapshotIMM",
+    "k": 20,
+    "spread": 470.7,
+    "std": 0.7,
+    "time_s": 101.3
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "DegDiscount",
+    "k": 20,
+    "spread": 473.5,
+    "std": 1.3,
+    "time_s": 97.6
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "TempDegree",
+    "k": 20,
+    "spread": 476.1,
+    "std": 1.1,
+    "time_s": 104.9
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "Random",
+    "k": 20,
+    "spread": 479.7,
+    "std": 1.9,
+    "time_s": 96.6
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "TIMM",
+    "k": 50,
+    "spread": 503.7,
+    "std": 0.4,
+    "time_s": 113.9
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "StaticIMM",
+    "k": 50,
+    "spread": 508.2,
+    "std": 1.7,
+    "time_s": 149.6
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "SnapshotIMM",
+    "k": 50,
+    "spread": 485.9,
+    "std": 1.5,
+    "time_s": 112.0
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "DegDiscount",
+    "k": 50,
+    "spread": 494.0,
+    "std": 0.7,
+    "time_s": 108.3
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "TempDegree",
+    "k": 50,
+    "spread": 494.7,
+    "std": 1.3,
+    "time_s": 100.5
+  },
+  {
+    "dataset": "collegemsg",
+    "algo": "Random",
+    "k": 50,
+    "spread": 508.4,
+    "std": 0.9,
+    "time_s": 97.4
+  }
+]

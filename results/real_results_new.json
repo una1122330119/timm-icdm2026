@@ -1,0 +1,380 @@
+﻿[
+  {
+    "ds": "reddit",
+    "algo": "TIMM",
+    "k": 10,
+    "spread": 1893.0,
+    "time_s": 55.4
+  },
+  {
+    "ds": "reddit",
+    "algo": "Static",
+    "k": 10,
+    "spread": 1889.6,
+    "time_s": 82.7
+  },
+  {
+    "ds": "reddit",
+    "algo": "Snap",
+    "k": 10,
+    "spread": 1864.3,
+    "time_s": 42.7
+  },
+  {
+    "ds": "reddit",
+    "algo": "DegDis",
+    "k": 10,
+    "spread": 1866.9,
+    "time_s": 41.3
+  },
+  {
+    "ds": "reddit",
+    "algo": "TempDeg",
+    "k": 10,
+    "spread": 1870.7,
+    "time_s": 37.4
+  },
+  {
+    "ds": "reddit",
+    "algo": "Rand",
+    "k": 10,
+    "spread": 885.2,
+    "time_s": 14.9
+  },
+  {
+    "ds": "reddit",
+    "algo": "TIMM",
+    "k": 20,
+    "spread": 1969.3,
+    "time_s": 47.0
+  },
+  {
+    "ds": "reddit",
+    "algo": "Static",
+    "k": 20,
+    "spread": 1901.8,
+    "time_s": 80.6
+  },
+  {
+    "ds": "reddit",
+    "algo": "Snap",
+    "k": 20,
+    "spread": 1877.9,
+    "time_s": 44.5
+  },
+  {
+    "ds": "reddit",
+    "algo": "DegDis",
+    "k": 20,
+    "spread": 1906.6,
+    "time_s": 44.6
+  },
+  {
+    "ds": "reddit",
+    "algo": "TempDeg",
+    "k": 20,
+    "spread": 1867.9,
+    "time_s": 42.9
+  },
+  {
+    "ds": "reddit",
+    "algo": "Rand",
+    "k": 20,
+    "spread": 1631.2,
+    "time_s": 36.7
+  },
+  {
+    "ds": "reddit",
+    "algo": "TIMM",
+    "k": 50,
+    "spread": 2046.0,
+    "time_s": 81.5
+  },
+  {
+    "ds": "reddit",
+    "algo": "Static",
+    "k": 50,
+    "spread": 1948.2,
+    "time_s": 85.5
+  },
+  {
+    "ds": "reddit",
+    "algo": "Snap",
+    "k": 50,
+    "spread": 1911.1,
+    "time_s": 45.9
+  },
+  {
+    "ds": "reddit",
+    "algo": "DegDis",
+    "k": 50,
+    "spread": 1984.3,
+    "time_s": 45.7
+  },
+  {
+    "ds": "reddit",
+    "algo": "TempDeg",
+    "k": 50,
+    "spread": 1952.6,
+    "time_s": 44.6
+  },
+  {
+    "ds": "reddit",
+    "algo": "Rand",
+    "k": 50,
+    "spread": 1840.3,
+    "time_s": 40.4
+  },
+  {
+    "ds": "dblp",
+    "algo": "TIMM",
+    "k": 10,
+    "spread": 1701.7,
+    "time_s": 27.6
+  },
+  {
+    "ds": "dblp",
+    "algo": "Static",
+    "k": 10,
+    "spread": 1557.0,
+    "time_s": 24.3
+  },
+  {
+    "ds": "dblp",
+    "algo": "Snap",
+    "k": 10,
+    "spread": 14.5,
+    "time_s": 0.3
+  },
+  {
+    "ds": "dblp",
+    "algo": "DegDis",
+    "k": 10,
+    "spread": 1545.7,
+    "time_s": 23.3
+  },
+  {
+    "ds": "dblp",
+    "algo": "TempDeg",
+    "k": 10,
+    "spread": 1412.1,
+    "time_s": 20.1
+  },
+  {
+    "ds": "dblp",
+    "algo": "Rand",
+    "k": 10,
+    "spread": 20.7,
+    "time_s": 0.1
+  },
+  {
+    "ds": "dblp",
+    "algo": "TIMM",
+    "k": 20,
+    "spread": 1995.8,
+    "time_s": 31.5
+  },
+  {
+    "ds": "dblp",
+    "algo": "Static",
+    "k": 20,
+    "spread": 1855.7,
+    "time_s": 22.3
+  },
+  {
+    "ds": "dblp",
+    "algo": "Snap",
+    "k": 20,
+    "spread": 28.4,
+    "time_s": 0.3
+  },
+  {
+    "ds": "dblp",
+    "algo": "DegDis",
+    "k": 20,
+    "spread": 1897.7,
+    "time_s": 22.3
+  },
+  {
+    "ds": "dblp",
+    "algo": "TempDeg",
+    "k": 20,
+    "spread": 1724.8,
+    "time_s": 19.7
+  },
+  {
+    "ds": "dblp",
+    "algo": "Rand",
+    "k": 20,
+    "spread": 46.0,
+    "time_s": 0.2
+  },
+  {
+    "ds": "dblp",
+    "algo": "TIMM",
+    "k": 50,
+    "spread": 2397.7,
+    "time_s": 42.3
+  },
+  {
+    "ds": "dblp",
+    "algo": "Static",
+    "k": 50,
+    "spread": 2113.0,
+    "time_s": 34.2
+  },
+  {
+    "ds": "dblp",
+    "algo": "Snap",
+    "k": 50,
+    "spread": 84.5,
+    "time_s": 0.8
+  },
+  {
+    "ds": "dblp",
+    "algo": "DegDis",
+    "k": 50,
+    "spread": 2346.0,
+    "time_s": 38.3
+  },
+  {
+    "ds": "dblp",
+    "algo": "TempDeg",
+    "k": 50,
+    "spread": 2023.4,
+    "time_s": 30.4
+  },
+  {
+    "ds": "dblp",
+    "algo": "Rand",
+    "k": 50,
+    "spread": 97.4,
+    "time_s": 0.6
+  },
+  {
+    "ds": "higgs",
+    "algo": "TIMM",
+    "k": 10,
+    "spread": 20738.4,
+    "time_s": 56.2
+  },
+  {
+    "ds": "higgs",
+    "algo": "Static",
+    "k": 10,
+    "spread": 17622.8,
+    "time_s": 48.3
+  },
+  {
+    "ds": "higgs",
+    "algo": "Snap",
+    "k": 10,
+    "spread": 10.5,
+    "time_s": 0.3
+  },
+  {
+    "ds": "higgs",
+    "algo": "DegDis",
+    "k": 10,
+    "spread": 20143.3,
+    "time_s": 54.5
+  },
+  {
+    "ds": "higgs",
+    "algo": "TempDeg",
+    "k": 10,
+    "spread": 20602.2,
+    "time_s": 52.8
+  },
+  {
+    "ds": "higgs",
+    "algo": "Rand",
+    "k": 10,
+    "spread": 12.8,
+    "time_s": 0.0
+  },
+  {
+    "ds": "higgs",
+    "algo": "TIMM",
+    "k": 20,
+    "spread": 23583.8,
+    "time_s": 62.6
+  },
+  {
+    "ds": "higgs",
+    "algo": "Static",
+    "k": 20,
+    "spread": 17841.2,
+    "time_s": 49.4
+  },
+  {
+    "ds": "higgs",
+    "algo": "Snap",
+    "k": 20,
+    "spread": 95.1,
+    "time_s": 0.6
+  },
+  {
+    "ds": "higgs",
+    "algo": "DegDis",
+    "k": 20,
+    "spread": 22941.3,
+    "time_s": 61.5
+  },
+  {
+    "ds": "higgs",
+    "algo": "TempDeg",
+    "k": 20,
+    "spread": 22812.8,
+    "time_s": 56.2
+  },
+  {
+    "ds": "higgs",
+    "algo": "Rand",
+    "k": 20,
+    "spread": 20.6,
+    "time_s": 0.0
+  },
+  {
+    "ds": "higgs",
+    "algo": "TIMM",
+    "k": 50,
+    "spread": 28850.5,
+    "time_s": 58.0
+  },
+  {
+    "ds": "higgs",
+    "algo": "Static",
+    "k": 50,
+    "spread": 19275.8,
+    "time_s": 48.1
+  },
+  {
+    "ds": "higgs",
+    "algo": "Snap",
+    "k": 50,
+    "spread": 127.4,
+    "time_s": 0.6
+  },
+  {
+    "ds": "higgs",
+    "algo": "DegDis",
+    "k": 50,
+    "spread": 26307.4,
+    "time_s": 73.7
+  },
+  {
+    "ds": "higgs",
+    "algo": "TempDeg",
+    "k": 50,
+    "spread": 26903.8,
+    "time_s": 71.8
+  },
+  {
+    "ds": "higgs",
+    "algo": "Rand",
+    "k": 50,
+    "spread": 55.4,
+    "time_s": 0.0
+  }
+]

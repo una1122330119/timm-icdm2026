@@ -1,0 +1,170 @@
+﻿[
+  {
+    "dataset": "reddit",
+    "algo": "TIMM",
+    "k": 10,
+    "spread": 4251.7,
+    "time_s": 75.3,
+    "window": "N/A"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "Random",
+    "k": 10,
+    "spread": 3337.9,
+    "time_s": 0,
+    "window": "N/A"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 10,
+    "spread": 4189.9,
+    "time_s": 39.8,
+    "window": "w=5"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 10,
+    "spread": 4201.1,
+    "time_s": 38.7,
+    "window": "w=10"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 10,
+    "spread": 4192.9,
+    "time_s": 38.3,
+    "window": "w=20"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 10,
+    "spread": 4179.5,
+    "time_s": 40.8,
+    "window": "w=50"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 10,
+    "spread": 4190.4,
+    "time_s": 42.5,
+    "window": "w=100 (adapt)"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "TIMM",
+    "k": 20,
+    "spread": 4282.9,
+    "time_s": 99.8,
+    "window": "N/A"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "Random",
+    "k": 20,
+    "spread": 4204.8,
+    "time_s": 0,
+    "window": "N/A"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 20,
+    "spread": 4181.9,
+    "time_s": 45.6,
+    "window": "w=5"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 20,
+    "spread": 4201.9,
+    "time_s": 42.6,
+    "window": "w=10"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 20,
+    "spread": 4181.2,
+    "time_s": 41.9,
+    "window": "w=20"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 20,
+    "spread": 4177.6,
+    "time_s": 40.4,
+    "window": "w=50"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 20,
+    "spread": 4196.1,
+    "time_s": 40.7,
+    "window": "w=100 (adapt)"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "TIMM",
+    "k": 50,
+    "spread": 4365.4,
+    "time_s": 154.1,
+    "window": "N/A"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "Random",
+    "k": 50,
+    "spread": 4246.0,
+    "time_s": 0,
+    "window": "N/A"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 50,
+    "spread": 4199.9,
+    "time_s": 45.9,
+    "window": "w=5"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 50,
+    "spread": 4213.2,
+    "time_s": 44.3,
+    "window": "w=10"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 50,
+    "spread": 4194.4,
+    "time_s": 42.3,
+    "window": "w=20"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 50,
+    "spread": 4191.1,
+    "time_s": 41.4,
+    "window": "w=50"
+  },
+  {
+    "dataset": "reddit",
+    "algo": "SnapshotIMM",
+    "k": 50,
+    "spread": 4238.6,
+    "time_s": 42.5,
+    "window": "w=100 (adapt)"
+  }
+]
